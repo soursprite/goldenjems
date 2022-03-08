@@ -2124,12 +2124,18 @@ input, select, textarea {
 			}
 
 		.image.fit {
+			position: relative;
+			padding-top: 58.64864864864865%;
 			display: block;
 			margin: 0 0 2em 0;
 			width: 100%;
+			overflow: hidden;
 		}
 
 			.image.fit img {
+				position: absolute;
+				left: 0;
+				top: 0;
 				width: 100%;
 			}
 
