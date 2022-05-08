@@ -3226,3 +3226,8 @@ input, select, textarea {
 			}
 
 	}
+
+
+	.blockimg {
+		max-width: 200px;
+	}
